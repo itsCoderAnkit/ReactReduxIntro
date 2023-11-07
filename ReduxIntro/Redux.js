@@ -32,5 +32,11 @@ const counterSubscriber = ()=>{
 
 store.subscribe(counterSubscriber)
 
-store.dispatch({type:'incrementby2'})
-store.dispatch({type:'decrementby2'})
+store.dispatch({type:'increment'})
+store.dispatch({type:'increment'})
+store.dispatch({type:'increment'})
+store.dispatch({type:'increment'})
+store.dispatch({type:'increment'})
+store.dispatch({type:'decrement'})
+// store.dispatch({type:'incrementby2'})
+// store.dispatch({type:'decrementby2'})
